@@ -1,0 +1,38 @@
+/* Styling für die Skills-Karten */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 2rem 9%;
+}
+
+.skill-card {
+    background: var(--second-bg-color);
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid transparent;
+    transition: 0.4s ease;
+}
+
+.skill-card:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.skill-card i {
+    font-size: 4rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+/* Schiebt den Inhalt unter den Header */
+.skills {
+    padding-top: 12rem; 
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+.heading {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
